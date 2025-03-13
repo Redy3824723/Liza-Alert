@@ -1,1 +1,11 @@
 Логирование
+
+
+2025-03-13 20:29:05.982997
+ФИО: PY_VAR0
+Возраст: PY_VAR1
+Город: PY_VAR2
+Описание: PY_VAR3
+Приметы: PY_VAR4
+Одежда: PY_VAR5
+Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
