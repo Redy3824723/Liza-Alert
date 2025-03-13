@@ -27,3 +27,12 @@
 Приметы: орп
 Одежда: опрло
 Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
+
+2025-03-13 20:36:13.434912
+ФИО: PY_VAR0
+Возраст: 435 лет
+Город: апо
+Описание: прап
+Приметы: рап
+Одежда: рпа
+Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
