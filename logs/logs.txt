@@ -1,11 +1,1 @@
 Логирование
-
-
-2025-03-13 21:41:33.632434
-ФИО: gfd ghfg
-Возраст: 54 лет
-Город: h fghfg
-Описание: hfg hfg
-Приметы: hfg
-Одежда:  hfg
-Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
