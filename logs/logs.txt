@@ -36,3 +36,12 @@
 Приметы: рап
 Одежда: рпа
 Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
+
+2025-03-13 21:25:32.924319
+ФИО: PY_VAR0
+Возраст: 18 лет
+Город: Евпа
+Описание: Описание
+Приметы: Приметы
+Одежда: Одежда
+Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
