@@ -18,3 +18,12 @@
 Приметы: Отсутс
 Одежда: Плащ
 Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
+
+2025-03-13 20:35:19.609729
+ФИО: PY_VAR0
+Возраст: 76 лет
+Город: пв
+Описание: рап
+Приметы: орп
+Одежда: опрло
+Фото на ПК: C:/Users/Redy/Pictures/image-removebg-preview (3).png
