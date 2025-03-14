@@ -44,3 +44,8 @@ Traceback (most recent call last):
     error_index = int(errors[0].replace('File "<ast>", line ', '').replace(', in function', '')) - 1
                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: invalid literal for int() with base 10: '  File "C:\\Users\\Redy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py", line 52, in parse'
+
+
+2025-03-14 16:55:12.239894
+Отработка кода прошла успешно
+Результат: В выполняем коде ничего не возвращалось
