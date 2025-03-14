@@ -1,0 +1,2 @@
+root.geometry("700x700")
+root.title("Melunec.com")
