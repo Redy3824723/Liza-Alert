@@ -20,3 +20,27 @@
 2025-03-14 16:50:23.214612
 Отработка кода прошла успешно
 Результат: В выполняем коде ничего не возвращалось
+
+2025-03-14 16:53:36.824331
+Во время проверки исполнения кода произошла ошибка
+Traceback (most recent call last):
+  File "d:\Redy\Projects\Liza_Alert\eval_code.py", line 35, in process_code
+    parsed = ast.parse(body)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Redy\AppData\Local\Programs\Python\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 2
+    cHJpbnQoImhpaSIpDQoNCjUwDQo=
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Redy\Projects\Liza_Alert\eval_code.py", line 19, in checker
+    await process_code(code, root, generator, logs)
+  File "d:\Redy\Projects\Liza_Alert\eval_code.py", line 52, in process_code
+    error_index = int(errors[0].replace('File "<ast>", line ', '').replace(', in function', '')) - 1
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '  File "C:\\Users\\Redy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py", line 52, in parse'
