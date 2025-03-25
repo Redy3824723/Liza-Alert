@@ -67,3 +67,6 @@
 
 2025-03-25 19:51:50.184493
 <built-in method now of type object at 0x00007FFC01207B60>: Программа была запущена на версии v0.0.1, но закрылась из-за выхода новой версии v0.0.2
+
+2025-03-25 19:52:31.044473
+<built-in method now of type object at 0x00007FFBE2C07B60>: Создан ярлык программы по пути: C:\Users\Redy\Desktop\Liza Alert.lnk
