@@ -70,3 +70,6 @@
 
 2025-03-25 19:52:31.044473
 <built-in method now of type object at 0x00007FFBE2C07B60>: Создан ярлык программы по пути: C:\Users\Redy\Desktop\Liza Alert.lnk
+
+2025-03-25 19:52:32.614828
+<built-in method now of type object at 0x00007FFBE2C07B60>: Программа была успешно установлена на ПК!
