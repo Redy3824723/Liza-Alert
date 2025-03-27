@@ -105,3 +105,43 @@ Traceback (most recent call last):
   File "requests\sessions.py", line 703, in send
   File "requests\adapters.py", line 682, in send
 requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+
+2025-03-27 08:54:59.302603
+Во время проверки исполнения кода произошла ошибка
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 466, in _make_request
+  File "urllib3\connectionpool.py", line 1095, in _validate_conn
+  File "urllib3\connection.py", line 730, in connect
+  File "urllib3\connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+  File "urllib3\util\ssl_.py", line 469, in ssl_wrap_socket
+  File "urllib3\util\ssl_.py", line 513, in _ssl_wrap_socket_impl
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1042, in _create
+  File "ssl.py", line 1320, in do_handshake
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 474, in increment
+  File "urllib3\util\util.py", line 39, in reraise
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 490, in _make_request
+  File "urllib3\connectionpool.py", line 468, in _make_request
+  File "urllib3\connectionpool.py", line 369, in _raise_timeout
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval_code.py", line 15, in checker
+  File "logs.py", line 89, in get_file_by_name
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 713, in send
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=None)
