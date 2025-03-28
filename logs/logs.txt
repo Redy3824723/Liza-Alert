@@ -152,3 +152,42 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port
 
 2025-03-28 07:54:33.992404
 2025-03-28 07:54:33.992404: Программа была успешно установлена на ПК!
+
+2025-03-28 08:24:26.832053
+Во время проверки исполнения кода произошла ошибка
+Traceback (most recent call last):
+  File "urllib3\connection.py", line 199, in _new_conn
+  File "urllib3\util\connection.py", line 85, in create_connection
+  File "urllib3\util\connection.py", line 73, in create_connection
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 490, in _make_request
+  File "urllib3\connectionpool.py", line 466, in _make_request
+  File "urllib3\connectionpool.py", line 1095, in _validate_conn
+  File "urllib3\connection.py", line 693, in connect
+  File "urllib3\connection.py", line 208, in _new_conn
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001F89BCDDEE0>, 'Connection to api.github.com timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 519, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Redy3824723/Liza-Alert/contents?ref=main (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F89BCDDEE0>, 'Connection to api.github.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval_code.py", line 15, in checker
+  File "logs.py", line 89, in get_file_by_name
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 688, in send
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Redy3824723/Liza-Alert/contents?ref=main (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F89BCDDEE0>, 'Connection to api.github.com timed out. (connect timeout=None)'))
