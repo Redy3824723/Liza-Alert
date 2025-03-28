@@ -145,3 +145,7 @@ Traceback (most recent call last):
   File "requests\sessions.py", line 703, in send
   File "requests\adapters.py", line 713, in send
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=None)
+
+
+2025-03-28 07:54:31.551321
+<built-in method now of type object at 0x00007FF8E5407B60>: Создан ярлык программы по пути: C:\Users\Vanechka\Desktop\Liza Alert.lnk
