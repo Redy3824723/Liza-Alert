@@ -149,3 +149,6 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port
 
 2025-03-28 07:54:31.551321
 <built-in method now of type object at 0x00007FF8E5407B60>: Создан ярлык программы по пути: C:\Users\Vanechka\Desktop\Liza Alert.lnk
+
+2025-03-28 07:54:33.992404
+2025-03-28 07:54:33.992404: Программа была успешно установлена на ПК!
