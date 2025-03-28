@@ -193,5 +193,5 @@ Traceback (most recent call last):
 requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Redy3824723/Liza-Alert/contents?ref=main (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F89BCDDEE0>, 'Connection to api.github.com timed out. (connect timeout=None)'))
 
 
-2025-03-28 14:32:54.484404
-<built-in method now of type object at 0x00007FFC089C7B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Liza Alert.lnk
+2025-03-28 14:32:55.435447
+<built-in method now of type object at 0x00007FFC09077B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Liza Alert.lnk
