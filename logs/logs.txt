@@ -231,3 +231,12 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.github.com', p
 Приметы: Нет
 Одежда: Нет
 Фото на ПК: C:/Users/Redy/Pictures/image.png
+
+2025-04-01 14:06:56.631369
+ФИО: ПР ЕРК РЕК
+Возраст: 54 лет
+Город: ПРУ
+Описание: ркер
+Приметы:  ркер
+Одежда:  ркркрк
+Фото на ПК: C:/Users/Redy/Pictures/image.png
