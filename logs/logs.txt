@@ -374,3 +374,7 @@ Traceback (most recent call last):
   File "requests\sessions.py", line 703, in send
   File "requests\adapters.py", line 682, in send
 requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'Программа на вашем хост-компьютере разорвала установленное подключение', None, 10053, None))
+
+
+2025-04-05 16:00:21.318334
+<built-in method now of type object at 0x00007FFC15A07B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Поиск Крым.lnk
