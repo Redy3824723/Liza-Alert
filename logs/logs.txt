@@ -396,3 +396,6 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedEr
 Приметы: ходит с палочкой
 Одежда: красная куртка красные штаны, черные кеды
 Фото на ПК: C:/Users/User/Downloads/vCZKLmdeauU.jpg
+
+2025-04-05 16:13:52.538680
+<built-in method now of type object at 0x00007FFAEBC57B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Поиск Крым.lnk
