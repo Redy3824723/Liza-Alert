@@ -309,3 +309,6 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.github.com', p
 
 2025-04-05 12:12:41.555327
 2025-04-05 12:12:41.555327: Программа была успешно установлена на ПК!
+
+2025-04-05 15:05:21.320410
+<built-in method now of type object at 0x00007FFECA887B60>: Создан ярлык программы по пути: C:\Users\Книга\Desktop\Поиск Крым.lnk
