@@ -303,3 +303,6 @@ requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.github.com', p
 Приметы: худощавого телосложения, глаза карие, волосы темные
 Одежда: Черная куртка, голубые джинсы, черные кроссовки. С собой синий рюкзак
 Фото на ПК: C:/Users/User/Downloads/scale_1200.png
+
+2025-04-05 12:12:40.059150
+<built-in method now of type object at 0x00007FFBC74A7B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Поиск Крым.lnk
