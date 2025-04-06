@@ -447,3 +447,6 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedEr
 
 2025-04-06 17:11:12.552138
 <built-in method now of type object at 0x00007FFAEB9A7B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Поиск Крым.lnk
+
+2025-04-06 17:11:14.036650
+2025-04-06 17:11:14.036650: Программа была успешно установлена на ПК!
