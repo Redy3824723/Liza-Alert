@@ -444,3 +444,6 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedEr
 Приметы: рост 135 см, худощавого телосложения, волосы русые, глаза карие.
 Одежда: синяя куртка, ёрные спортивные штаны, чёрные сапоги,зелёная шапка.
 Фото на ПК: E:/rMrbh_sPHgQ (1).jpg
+
+2025-04-06 17:11:12.552138
+<built-in method now of type object at 0x00007FFAEB9A7B60>: Создан ярлык программы по пути: C:\Users\User\Desktop\Поиск Крым.lnk
