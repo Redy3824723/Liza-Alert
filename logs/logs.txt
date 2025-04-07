@@ -450,3 +450,44 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedEr
 
 2025-04-06 17:11:14.036650
 2025-04-06 17:11:14.036650: Программа была успешно установлена на ПК!
+
+2025-04-07 09:00:09.800954
+Во время проверки исполнения кода произошла ошибка
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 466, in _make_request
+  File "urllib3\connectionpool.py", line 1095, in _validate_conn
+  File "urllib3\connection.py", line 730, in connect
+  File "urllib3\connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+  File "urllib3\util\ssl_.py", line 469, in ssl_wrap_socket
+  File "urllib3\util\ssl_.py", line 513, in _ssl_wrap_socket_impl
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1042, in _create
+  File "ssl.py", line 1320, in do_handshake
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 789, in urlopen
+  File "urllib3\connectionpool.py", line 490, in _make_request
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 667, in send
+  File "urllib3\connectionpool.py", line 843, in urlopen
+  File "urllib3\util\retry.py", line 519, in increment
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Redy3824723/Liza-Alert/contents?ref=main (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval_code.py", line 15, in checker
+  File "logs.py", line 89, in get_file_by_name
+  File "requests\api.py", line 73, in get
+  File "requests\api.py", line 59, in request
+  File "requests\sessions.py", line 589, in request
+  File "requests\sessions.py", line 703, in send
+  File "requests\adapters.py", line 698, in send
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Redy3824723/Liza-Alert/contents?ref=main (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
